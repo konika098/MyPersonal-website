@@ -1,10 +1,23 @@
+// import Header from "../Header/Header";
+import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+
 
 const Root = () => {
     return (
      <>
-     <Navbar/>
+     {/* <Header/> */}
+   
+   <Navbar/>
+   
+     <div className="w-[70%]">
+     <Outlet/>
+     </div>
      
+     
+ 
+     
+   
      </>
     );
 };
