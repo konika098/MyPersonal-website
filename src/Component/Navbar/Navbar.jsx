@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavLink>Resume</NavLink>
         <NavLink>Portfolio</NavLink>
         <NavLink>Service</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink to='/contact'>Contact</NavLink>
 
         <hr className="w-3/6 h-1 mt-20 bg-white"/>
         <div className="flex gap-4">
